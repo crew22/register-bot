@@ -1,0 +1,5 @@
+{
+  "whitelistRolID": 123, // Sayý olarak týrnak (",') iþaretleri arasýnda almadan yazmalýsýnýz!
+  "sunucuyaGirisOzeldenEmbedTitle": "",
+  "sunucuyaGirisOzeldenEmbedDescription": "",
+}

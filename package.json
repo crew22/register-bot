@@ -1,0 +1,9 @@
+{
+  "name": "fivem-society-register-bot",
+  "version": "0.0.0",
+  "description": "FivemSocietyRegisterBot",
+  "main": "app.js",
+  "author": {
+    "name": "Ata Ege#0001"
+  }
+}
