@@ -1,5 +1,12 @@
 {
-  "whitelistRolID": 123, // Sayý olarak týrnak (",') iþaretleri arasýnda almadan yazmalýsýnýz!
-  "sunucuyaGirisOzeldenEmbedTitle": "",
-  "sunucuyaGirisOzeldenEmbedDescription": "",
+  "sistemleriYonet": {
+    "sunucuyaGirisOzeldenEmbed": false,
+    "yetkiliCagir": true
+  },
+  "sunucuyaGirisOzeldenEmbedDescription": "Embed Desc.",
+  "sunucuyaGirisOzeldenEmbedTitle": "Embed Title",
+  "yetkiliCagirMesaj": "Yetkili Ã‡aÄŸÄ±r Mesaj",
+  "yetkiliCagirKanalID": "769283883275255898",
+  "whitelistRolID": 123,
+  "nonWhitelistRolID": 123
 }
