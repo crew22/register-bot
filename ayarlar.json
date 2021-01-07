@@ -1,0 +1,12 @@
+{
+  "sistemleriYonet": {
+    "sunucuyaGirisOzeldenEmbed": true,
+    "yetkiliCagir": true,
+    "giristeOtomatikRolVerme": true 
+  },
+  "sunucuyaGirisOzeldenEmbedDescription": "Hoşgeldiniz açıklaması",
+  "sunucuyaGirisOzeldenEmbedTitle": "Hoşgeldiniz başlığı",
+  "yetkiliCagirMesaj": "Yetkili çağır mesajı",
+  "yetkiliCagirKanalID": "yetkili çağırma kanalı idsi",
+  "nonWhitelistRolID": "non whitelist rol idsi (sunucuya ilk girişte verilecek olan rol)"
+}
