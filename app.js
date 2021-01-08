@@ -21,10 +21,19 @@ client.on("guildMemberAdd", member => {
 });
 
 client.on("message", message => {
-    if (!message.content.startsWith(config.prefix + "kayıt") || message.author.bot) return;
-    if (!ayarlar.sistemleriYonet.yetkiliCagir) return;
-    if (message.channel.id != ayarlar.yetkiliCagirKanalID) return;
-    client.channels.cache.get(ayarlar.yetkiliCagirKanalID).send(ayarlar.yetkiliCagirMesaj);
+    if (message.author.bot) return;
+
+    // Kayıt çağırma 
+    if (message.content.startsWith(config.prefix + "kayıt ") && ayarlar.sistemleriYonet.yetkiliCagir && message.channel.id != ayarlar.yetkiliCagirKanalID) {
+        client.channels.cache.get(ayarlar.yetkiliCagirKanalID).send(ayarlar.yetkiliCagirMesaj);
+    };
+
+    if (message.content.startsWith(config.prefix + "kayıt-et")) {
+        let rol = message.mentions.roles.first();
+        // if (!(role => kayitYetkilisiRolIDleri.includes(role.id))) return console.log("yetkisi yok!");
+        console.log(message.author.member);
+        if (!rol) return message.channel.send(ayarlar.kayitRolEtiketlemediniz);
+    }
 });
 
 client.login(config.token);
