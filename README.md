@@ -5,7 +5,6 @@ FivemSociety.com'a özel olarak yapılmış ve FiveM sunucularına uyumlu ve tam
 ## Ayarların Yapılması 
 
 ### Önemli Ayarları Değiştirmek
-
 Prefixi değiştirmek için config.json dosyasının içindeki prefix özelliğinin karşısındaki değeri değiştirmelisiniz. Tokeni değiştirmek için discord.com/developers üzerinden oluşturduğunuz botun tokenini girmelisiniz. Eğer tokeni nasıl alacağınızı ve botu nasıl oluşturacağınızı bilmiyorsanız https://fivemsociety.com/konu/discord-botu-olusturma-ve-aktif-etme-vds-glitch.658 adresinden yardım alabilirsiniz.
 
 ### Mesajları Değiştirmek ve Sistemleri Yönetmek
