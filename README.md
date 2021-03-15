@@ -1,5 +1,5 @@
-# fivemsociety.com Kayıt Botu
-Fivem Society Kayıt Botu, sistemlerinde gönderilen mesajların içeriklerine kadar ayarlanabilen bir açık kaynaklı kayıt botudur ve halen geliştirilmeye devam edilmektedir. Bu bot sayesinde sunucunuza giren üyelere özel mesaj gönderilmesini, yetkili çağırabilmesini, girişte otomatik rol verilmesini ve yetkililerin üyeleri kaydetmesini (Yakında eklenecektir, bu özellik sayesinde yetkilileriniz kaç kayıt yaptığını takip edebileceksiniz.) sağlayabilirsiniz.
+# Kayıt Botu
+Kayıt Botu, sistemlerinde gönderilen mesajların içeriklerine kadar ayarlanabilen kominitydev.com ekibi tarafından geliştirilmiş botun bir parçasının açık kaynak versiyonudur. Bu bot sayesinde sunucunuza giren üyelere özel mesaj gönderilmesini, yetkili çağırabilmesini, girişte otomatik rol verilmesini ve yetkililerin üyeleri kaydetmesini (Yakında eklenecektir, bu özellik sayesinde yetkilileriniz kaç kayıt yaptığını takip edebileceksiniz.) sağlayabilirsiniz.
 
 ## Botun Kurulumları
 Botun çalışması bazı kurulumların yapılması gerekmektedir ve bu bölümde yapılması gereken kurulumları nasıl yapacağımızı göreceğiz.
@@ -7,7 +7,7 @@ Botun çalışması bazı kurulumların yapılması gerekmektedir ve bu bölümd
 ### Modül Kurulumları
 Botta şu an sadece `discord.js` modülü kullanılmaktadır. Bu modülü kurmak için yapmanız gereken tek işlem botun bulunduğu klasörde **SHIFT + MOUSE SAĞ TIK** kısayolunu kullanıyoruz ve **Powershell penceresini burada açın**'a basıyoruz. Açılan pencereye aşağıda verdiğim komudu yazıyoruz.
 
-`npm install discord.js`
+`npm install`
 
 ## Ayarların Yapılması 
 
