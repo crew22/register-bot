@@ -30,7 +30,6 @@ client.on("message", message => {
 
     if (message.content.startsWith(config.prefix + "kayıt-et")) {
         let rol = message.mentions.roles.first();
-        // if (!(role => kayitYetkilisiRolIDleri.includes(role.id))) return console.log("yetkisi yok!");
         console.log(message.author.member);
         if (!rol) return message.channel.send(ayarlar.kayitRolEtiketlemediniz);
     }
