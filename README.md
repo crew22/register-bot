@@ -7,7 +7,9 @@ Botun çalışması bazı kurulumların yapılması gerekmektedir ve bu bölümd
 ### Modül Kurulumları
 Botta şu an sadece `discord.js` modülü kullanılmaktadır. Bu modülü kurmak için yapmanız gereken tek işlem botun bulunduğu klasörde **SHIFT + MOUSE SAĞ TIK** kısayolunu kullanıyoruz ve **Powershell penceresini burada açın**'a basıyoruz. Açılan pencereye aşağıda verdiğim komudu yazıyoruz.
 
-`npm install`
+```console
+$ npm install
+```
 
 ## Ayarların Yapılması 
 
